@@ -169,7 +169,9 @@ button:hover {
   padding: 2rem;
   border: 1px solid #FFD700;
   border-radius: 8px;
+  color: #000000; /* <-- This will force text to black */
 }
+
 
 .simple-page h1 {
   font-size: 2rem;
