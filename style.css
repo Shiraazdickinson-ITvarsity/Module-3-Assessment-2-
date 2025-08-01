@@ -1,0 +1,196 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  background-image: url('images/Cream%20and%20Black%20Simple%20Illustration%20Catering%20Logo.png'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; 
+  color: white;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+header {
+  background-color: #000000;
+  color: #FFD700;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+
+nav a {
+  color: #FFD700;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  background-color: #000000;
+  border: 1px solid #FFD700;
+}
+
+nav a:hover {
+  background-color: #FFD700;
+  color: #000000;
+}
+
+main {
+  flex: 1;
+  padding: 2rem;
+}
+
+.categories ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.categories li {
+  background-color: #fff8dc;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 8px;
+  transition: transform 0.3s, background-color 0.3s;
+  border: 1px solid #FFD700;
+}
+
+.categories li:hover {
+  transform: scale(1.05);
+  background-color: #fff0b3;
+}
+
+.categories a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+footer {
+  background-color: #000000;
+  color: #FFD700;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+
+.product-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fffaf0;
+  border: 1px solid #FFD700;
+  border-radius: 8px;
+}
+
+.product-page img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.product-page h1 {
+  color: #000000;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.product-page .price {
+  font-size: 1.5rem;
+  color: #FFD700;
+  margin-bottom: 1rem;
+}
+
+.product-page ul {
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.product-page li {
+  margin-bottom: 0.5rem;
+}
+
+textarea, input[type="text"], button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #FFD700;
+  color: #000000;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e6c200;
+}
+
+
+.simple-page {
+  max-width: 600px;
+  margin: 3rem auto;
+  text-align: center;
+  background-color: #fffaf0;
+  padding: 2rem;
+  border: 1px solid #FFD700;
+  border-radius: 8px;
+}
+
+.simple-page h1 {
+  font-size: 2rem;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+.simple-page p, .simple-page a {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.simple-page a {
+  color: #FFD700;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.simple-page a:hover {
+  text-decoration: underline;
+}
+.product-page {
+  color: #000000; 
+}
